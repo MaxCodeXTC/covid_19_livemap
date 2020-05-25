@@ -1,0 +1,23 @@
+body{
+    background-color: #283038;
+}
+
+path {
+    position: relative;
+}
+path.bg {
+    position: absolute;
+    
+    height: 100px;
+    width: 100px;
+    z-index: 500;
+}
+#spesificInfo {
+    position: absolute;
+    background-color: #fff;
+    height: 200px;
+    width: 300px;
+    right: 20px;
+    top: 15px;
+    display: none;
+}
